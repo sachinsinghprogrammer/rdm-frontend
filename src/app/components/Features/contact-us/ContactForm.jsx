@@ -269,14 +269,16 @@ export default function ContactForm({ career = false }) {
                   <Mail className="w-5 h-5 text-blue-600" />
                   <div>
                     <p className="font-semibold mb-0 subtitle">Email</p>
-                    <p className="text-white">balsoordigital@gmail.com</p>
+                    <p className="text-white">
+                      info@reliantdesignsandmarketing.com
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-blue-600" />
                   <div>
                     <p className="font-semibold mb-0 subtitle">Phone</p>
-                    <p className="text-white">+91 96654 35642</p>
+                    <p className="text-white">+91 7875265561</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -284,8 +286,8 @@ export default function ContactForm({ career = false }) {
                   <div>
                     <p className="font-semibold mb-0 subtitle">Address</p>
                     <p className="text-white">
-                      Office No. 1, Navale Pride, Near Bank of Maharashtra,
-                      Narhe, Pune, Maharashtra - 411041
+                      Shop No. 15, Kakkad Madhukosh Society, near Yashoda Chowk,
+                      Balewadi, Pune, Maharashtra 411045
                     </p>
                   </div>
                 </div>
@@ -295,7 +297,7 @@ export default function ContactForm({ career = false }) {
                     <p className="font-semibold mb-0 subtitle">
                       Business Hours
                     </p>
-                    <p className="text-white">Mon-Fri: 9AM-6PM IST</p>
+                    <p className="text-white">Mon-Sat: 9AM-6PM IST</p>
                   </div>
                 </div>
               </div>
@@ -305,7 +307,7 @@ export default function ContactForm({ career = false }) {
                 <p className="text-sm">
                   For urgent inquiries, call us directly.
                 </p>
-                <p className="mt-2 font-bold">+91 96654 35642</p>
+                <p className="mt-2 font-bold">+91 7875265561</p>
               </div>
             </>
           )}
