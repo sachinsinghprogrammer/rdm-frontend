@@ -13,11 +13,6 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const [theme, setTheme] = useState("");
 
-  const toggleTheme = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    theme === "" ? setTheme("light-theme") : setTheme("");
-  };
-
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
