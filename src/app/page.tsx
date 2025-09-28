@@ -19,7 +19,10 @@ export default function Home() {
   function test() {
     setTheme("");
   }
-  test();
+  useEffect(() => {
+    test();
+  }, []);
+
   return (
     <>
       <Hero theme={theme} />
