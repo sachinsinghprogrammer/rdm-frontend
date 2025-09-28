@@ -16,7 +16,10 @@ export default function Home() {
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
-
+  function test() {
+    setTheme("");
+  }
+  test();
   return (
     <>
       <Hero theme={theme} />
