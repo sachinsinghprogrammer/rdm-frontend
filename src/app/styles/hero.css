@@ -6,6 +6,10 @@
 .hero__content,
 .hero__img {
   width: 50%;
+}
+
+.hero__img {
+  width: 50%;
   display: flex;
   justify-content: end;
 }
@@ -87,7 +91,6 @@
   .hero__content,
   .hero__img {
     width: 100%;
-    display: block;
   }
 
   .hero__wrapper {
