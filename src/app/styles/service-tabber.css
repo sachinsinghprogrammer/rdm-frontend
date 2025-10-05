@@ -48,6 +48,21 @@
   color: #ffffff;
 }
 
+.team__details {
+  padding: 20px 15px;
+}
+
+.team__details {
+  padding: 20px 15px;
+}
+
+.team__details h4 {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
 @media only screen and (max-width: 992px) {
   .services__top-content {
     font-size: 1.5rem;

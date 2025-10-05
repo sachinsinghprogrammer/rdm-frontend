@@ -290,12 +290,12 @@ export default function ServicesTabber({ theme }) {
                 </div>
 
                 {/* Content */}
-                <div className="p-4 space-y-2">
-                  <h3 className="font-semibold text-lg leading-snug">
+                <div className="p-4 space-y-2 team__details">
+                  <h4 className="font-semibold text-lg leading-snug">
                     {service.title}
-                  </h3>
-                  <p className="text-sm text-gray-600">{service.description}</p>
-                  <p className="text-xs text-gray-500">
+                  </h4>
+                  <p className="text-sm text-white">{service.description}</p>
+                  <p className="text-xs text-white">
                     Provided by {service.provider}
                   </p>
                 </div>
