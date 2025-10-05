@@ -2,15 +2,17 @@ import React, { useState, useEffect } from "react";
 import "../../styles/hero.css";
 import heroDarkImg from "../../images/hero-img.png";
 import LightImg from "../../images/light-hero-bg.jpg";
-import heroDarkImg2 from "../../images/hero-img2.png";
+import heroDarkImg1 from "../../images/hero/hero1.png";
+import heroDarkImg2 from "../../images/hero/hero2.png";
+import heroDarkImg3 from "../../images/hero/hero3.png";
 const Hero = ({ theme }) => {
   const heroSlides = [
     {
       title: ["Creative Designs", "Smart Marketing", "Real Growth"],
       description:
-        "Transform your ideas into reality with cutting-edge designs.Your Brand’s Journey to Unstoppable Success.",
+        "Transform your ideas into reality with cutting-edge designs.",
       lightImg: LightImg,
-      darkImg: heroDarkImg,
+      darkImg: heroDarkImg1,
     },
     {
       title: ["Innovate Your Business", "With Stunning", "Digital Solutions"],
@@ -23,7 +25,7 @@ const Hero = ({ theme }) => {
       description: "Transforming Personal Brands Into Lasting Success",
       // "Transform your ideas into reality with cutting-edge designs.",
       lightImg: LightImg,
-      darkImg: heroDarkImg2,
+      darkImg: heroDarkImg3,
     },
   ];
 
